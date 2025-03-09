@@ -1,1 +1,20 @@
+public class Question2{
+public static void main(String[] args){
+	
+Scanner scanner = new Scanner(System.in);
 
+
+// taking input
+System.out.println("Enter a Number: ");
+int n = scanner.nextInt();
+scanner.close();
+ 
+ //// Using bitwise AND operator to check even or odd
+ if ((n & 1) == 0){
+ System.out.println(n + "is Even");
+ }
+ else{
+ System.out.println(n + "is Odd");
+     }
+   }
+} 
