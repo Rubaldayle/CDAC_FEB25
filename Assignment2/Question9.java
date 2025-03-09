@@ -14,7 +14,7 @@ public class Question9 {
         int num = scanner.nextInt();
         scanner.close();
 
-        System.out.println("Number is in range (20 to 50): " + (num >= 20 && num <= 50));
+        System.out.println("number is within a specific range (20 to 50): " + (num >= 20 && num <= 50));
     }
 }
 
