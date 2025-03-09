@@ -1,1 +1,26 @@
+//Write a Java program to swap two numbers using the += and -= operators only.
+
+import java.util.Scanner;
+
+public class Question5 
+{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number a : ");
+        int a = scanner.nextInt();
+
+        System.out.print("Enter second number b : ");
+        int b = scanner.nextInt();
+        scanner.close();
+
+        System.out.println("Before swapping: a = " + a + ", b = " + b);
+
+        a += b;  
+        a -= b;  
+
+        System.out.println("After swapping: a = " + a + ", b = " + b);
+    }
+}
+
 
