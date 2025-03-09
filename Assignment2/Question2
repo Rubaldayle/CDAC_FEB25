@@ -9,7 +9,8 @@ System.out.println("Enter a Number: ");
 int n = scanner.nextInt();
 scanner.close();
  
- if ((n & 1) == 0){
+ if ((n & 1) == 0)
+{
  System.out.println(n + "is Even");
  }
  else{
