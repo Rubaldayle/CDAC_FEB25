@@ -1,1 +1,11 @@
-
+public class Q01BitwiseXOR{
+	public static void main(String[] args){
+		int a = 5;
+		int b = 7;
+		System.out.println("Before Swapping: \na = " + a + " = " + b);
+		a = a ^ b;
+		b = a ^ b;
+		a = a ^ b;
+		System.out.println("After Swapping: \na = " + a + " = " + b);
+	}
+}	
