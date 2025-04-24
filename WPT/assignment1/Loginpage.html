@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<style>
+body{
+    background: linear-gradient(#EA80FC,#E1BEE7)
+}
+#login-page-container{
+width: 600px;
+height: 300px; 
+background-color: #F3E5F5;
+text-align: center;
+margin: 180px auto;
+border-radius: 40px;
+}
+input{
+width: 60%;
+margin-bottom: 20px;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+#s1
+{
+cursor: pointer;
+    transition: background 0.5s;
+}
+#s2{
+cursor: pointer;
+    transition: background 0.5s;
+}
+.form-field{
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    outline: 0;
+}	
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<div id="login-page-container">
+<h1>Login</h1>
+<form>
+<div>
+<input class="form-field" type="text" name="username" placeholder="Enter Username">
+</div>
+<div>
+<input class="form-field" type="password" name="password" placeholder="Enter Password">
+</div>
+<div class="options">
+      <label>
+  <input type="checkbox" name="remember">
+  Remember me
+</label>
+
+      <a href="#">Forgot password?</a>
+    </div>
+<div style="display: flex; justify-content: center; gap: 20px;">
+<button type="submit" id="s1">Submit</button>
+<button type="submit" id="s2">Cancel</button>
+</div>
+<p>Don't have an account?<a href="#"> Register</a></p>
+</form>
+</div>
+
+
+</body>
+</html>
